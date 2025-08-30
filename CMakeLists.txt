@@ -45,6 +45,6 @@ add_definitions(-DPROJECT_ROOT="${CMAKE_SOURCE_DIR}")
 enable_testing()
 find_package(Catch2 REQUIRED)
 
-add_subdirectory(examples)
+
 add_subdirectory(tests)
 add_subdirectory(src)
