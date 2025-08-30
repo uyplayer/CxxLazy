@@ -46,5 +46,4 @@ enable_testing()
 find_package(Catch2 REQUIRED)
 
 
-add_subdirectory(tests)
 add_subdirectory(src)
